@@ -1,0 +1,118 @@
+
+<header class="container">
+	{% if page.nav_social %}	
+	<div class="row social">
+		<nav class="col col-lg-12 nav-social">
+			{{ page.nav_social }}
+		</nav>
+	</div>
+	{% endif %}
+	
+	<div class="row logo-nav">
+		{% if page.logo %}
+		<section class="logo col-lg-4 col-md-12">
+			{{ page.logo }}
+		</section>
+		{% endif %}
+	
+		{% if page.nav_main %}
+		<section class="col col-lg-8 nav-main">
+				{{ page.nav_main }}
+		</section>
+		{% endif %}
+	</div>
+</header>
+
+{%if page.aside_top %}
+<div class="container">
+	<div class="row">
+		<section class="col-lg-12">
+			{{ page.aside_top }}	
+		</section>
+	</div>
+</div>
+{% endif %}
+
+<main class="container">
+	<div class="row">
+		{% if page.sidebar_gauche %}	
+		{% block sidebar_gauche %}
+		<section class="col-lg-3" role="complementary">
+			{{ page.sidebar_gauche }}
+		</section>
+		{% endblock %}
+		{% endif %}
+
+
+		{# Content #}
+		{%
+		set content_classes = [
+		page.sidebar_gauche and page.sidebar_droit ? 'col-sm-6',
+		page.sidebar_gauche and page.sidebar_droit is empty ? 'col-sm-9',
+		page.sidebar_droit and page.sidebar_gauche is empty ? 'col-sm-9',
+		page.sidebar_gauche is empty and page.sidebar_droit is empty ? 'col-sm-12'
+		]
+		%}
+		<section{{ content_attributes.addClass(content_classes) }}>
+			{# Highlighted #}
+			{% if page.highlighted %}
+			{% block highlighted %}
+			<div class="highlighted">
+				{{ page.highlighted }}
+			</div>
+			{% endblock %}
+			{% endif %}
+
+			{# Help #}
+			{% if page.help %}
+			{% block help %}
+				{{ page.help }}
+			{% endblock %}
+			{% endif %}
+
+			{# Content #}
+			{% block content %}
+				{{ page.content }}
+			{% endblock %}
+		</section>	
+
+
+		{% if page.sidebar_droit %}
+		{% block sidebar_droit %}
+		<section class="col-lg-3" role="complementary">
+			{{ page.sidebar_droit }}
+		</section>
+		{% endblock %}
+		{% endif %}
+	</div>
+
+	{%if page.aside_dessous %}
+	<div class="row">
+		<section class="sur-le-terrain">
+			{{ page.aside_dessous }}	
+		</section>
+	</div>
+	{% endif %}
+</main>
+
+<footer class="container">
+	<section class="row footer-coordonnees">
+		<section class="col-lg-3">
+			{% if page.footer_gauche %}
+			{{ page.footer_gauche }}
+			{% endif %}
+		</section>
+
+		<section class="col-lg-3">
+			{% if page.footer_centre %}
+			{{ page.footer_centre }}
+			{% endif %}
+		</section>
+
+		<section class="col-lg-6">
+			{% if page.footer_droit %}
+			{{ page.footer_droit }}
+			{% endif %}
+		</section>
+	</section>
+</footer>

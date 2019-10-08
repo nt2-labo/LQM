@@ -1,0 +1,14 @@
+/* line 1, ../sass/style.sass */
+body {
+  height: 100%;
+  overflow-y: hidden;
+}
+/* line 5, ../sass/style.sass */
+body header, body main, body footer {
+  box-sizing: border-box;
+}
+/* line 9, ../sass/style.sass */
+body header .nav-social, body header .nav-main {
+  display: flex;
+  justify-content: flex-end;
+}
