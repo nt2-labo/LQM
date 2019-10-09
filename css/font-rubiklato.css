@@ -1,0 +1,25 @@
+/* line 1, ../sass/font-rubiklato.scss */
+body {
+  font-family: 'Lato','Verdana','Helvetica', sans-serif;
+}
+
+/* line 5, ../sass/font-rubiklato.scss */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Rubik','Helvetica', sans-serif;
+}
+
+/* line 10, ../sass/font-rubiklato.scss */
+h5, h6, .h5, .h6 {
+  font-weight: 500;
+}
+
+/* line 14, ../sass/font-rubiklato.scss */
+.menu > li {
+  font-family: 'Lato','Verdana','Helvetica', sans-serif;
+}
+
+/* line 18, ../sass/font-rubiklato.scss */
+.btn, .btn__text, button {
+  font-family: 'Lato','Verdana','Helvetica', sans-serif;
+}
