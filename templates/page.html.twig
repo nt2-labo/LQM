@@ -1,4 +1,3 @@
-
 <header class="container">
 	{% if page.nav_social %}	
 	<div class="row social">
@@ -10,14 +9,14 @@
 	
 	<div class="row logo-nav">
 		{% if page.logo %}
-		<section class="logo col-lg-4 col-md-12">
+		<section class="logo col-lg-2 col-md-12">
 			{{ page.logo }}
 		</section>
 		{% endif %}
 	
 		{% if page.nav_main %}
-		<section class="col col-lg-8 nav-main">
-				{{ page.nav_main }}
+		<section class="col col-lg-10 nav-main">
+			{{ page.nav_main }}
 		</section>
 		{% endif %}
 	</div>
@@ -37,7 +36,7 @@
 	<div class="row">
 		{% if page.sidebar_gauche %}	
 		{% block sidebar_gauche %}
-		<section class="col-lg-3" role="complementary">
+		<section class="col-lg-3 sidebar-gauche"  role="complementary">
 			{{ page.sidebar_gauche }}
 		</section>
 		{% endblock %}
@@ -79,7 +78,7 @@
 
 		{% if page.sidebar_droit %}
 		{% block sidebar_droit %}
-		<section class="col-lg-3" role="complementary">
+		<section class="col-lg-3 sidebar-droit" role="complementary">
 			{{ page.sidebar_droit }}
 		</section>
 		{% endblock %}

@@ -1,14 +1,138 @@
 /* line 1, ../sass/style.sass */
-body {
-  height: 100%;
-  overflow-y: hidden;
+html {
+  font-size: 87.5%;
 }
-/* line 5, ../sass/style.sass */
+
+/* line 4, ../sass/style.sass */
+body {
+  font-size: 1em;
+  line-height: 1.85714em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  color: #666666;
+  font-weight: 400;
+}
+/* line 13, ../sass/style.sass */
 body header, body main, body footer {
   box-sizing: border-box;
 }
-/* line 9, ../sass/style.sass */
+/* line 17, ../sass/style.sass */
 body header .nav-social, body header .nav-main {
   display: flex;
   justify-content: flex-end;
+  text-transform: uppercase;
+}
+/* line 22, ../sass/style.sass */
+body header .nav-main ul li a {
+  margin: 0.1em;
+  padding: 0.4em;
+}
+
+/* |||||||||| RESET |||||||||| */
+/* line 27, ../sass/style.sass */
+*, h1, h2, h3, h4, h5, h6, p, ul, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* |||||||||| Typographie |||||||||| */
+/* line 32, ../sass/style.sass */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  color: #252525;
+  font-weight: 300;
+  font-variant-ligatures: common-ligatures;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 40, ../sass/style.sass */
+h1, .h1 {
+  font-size: 3.14286em;
+  line-height: 1.31818em;
+}
+
+/* line 44, ../sass/style.sass */
+h2, .h2 {
+  font-size: 2.35714em;
+  line-height: 1.36364em;
+}
+
+/* line 48, ../sass/style.sass */
+h3, .h3 {
+  font-size: 1.78571em;
+  line-height: 1.5em;
+}
+
+/* line 52, ../sass/style.sass */
+h4, .h4 {
+  font-size: 1.35714em;
+  line-height: 1.36842em;
+}
+
+/* line 56, ../sass/style.sass */
+h5, .h5 {
+  font-size: 1em;
+  line-height: 1.85714em;
+}
+
+/* line 60, ../sass/style.sass */
+h6, .h6 {
+  font-size: 0.85714em;
+  line-height: 2.16667em;
+}
+
+/* line 64, ../sass/style.sass */
+.lead {
+  font-size: 1.35714em;
+  line-height: 1.68421em;
+}
+
+/* line 68, ../sass/style.sass */
+p, ul, ol, pre, table, blockquote {
+  margin-bottom: 1.85714em;
+}
+
+/* line 71, ../sass/style.sass */
+ul, ol {
+  list-style: none;
+  line-height: 1.85714em;
+}
+
+/* line 75, ../sass/style.sass */
+ul.bullets {
+  list-style: inside;
+}
+
+/* line 78, ../sass/style.sass */
+ol {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+
+/* line 82, ../sass/style.sass */
+blockquote {
+  font-size: 1.78571em;
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0;
+  border-left: 0;
+}
+
+/* line 89, ../sass/style.sass */
+strong {
+  font-weight: 600;
+}
+
+/* line 92, ../sass/style.sass */
+hr {
+  margin: 1.85714em 0;
+  border-color: #fafafa;
+}
+
+/* line 96, ../sass/style.sass */
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  outline: none;
 }
