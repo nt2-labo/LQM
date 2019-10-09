@@ -1,4 +1,11 @@
 global-styling:
   css:
     theme:
-      css/style.css: {}
+      css/stack-interface.css: {}
+      css/socioicon.css: {}
+      css/lightbox.min.css: {}
+      css/flickity.css: {}
+      css/iconsmind.css: {}
+      css/jquery.steps.css: {}
+      css/theme.css: {}
+      css/font-rubiklato.css: {}
