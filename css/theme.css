@@ -4767,8 +4767,8 @@ section.text-right > .container:last-child > .row:only-child > div[class*='col-'
 /* line 3449, ../sass/theme.scss */
 section,
 footer {
-  padding-top: 7.42857143em;
-  padding-bottom: 7.42857143em;
+  padding-top: 0.42857143em;
+  padding-bottom: 0.42857143em;
 }
 
 /* line 3454, ../sass/theme.scss */

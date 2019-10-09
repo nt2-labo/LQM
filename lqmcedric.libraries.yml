@@ -9,3 +9,4 @@ global-styling:
       css/jquery.steps.css: {}
       css/theme.css: {}
       css/font-rubiklato.css: {}
+      css/style.css: {}
