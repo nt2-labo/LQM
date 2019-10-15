@@ -16,19 +16,23 @@ body header .logo-nav {
   display: flex;
   align-items: flex-end;
 }
+/* line 18, ../sass/style.sass */
+body footer section {
+  padding-top: 0;
+}
 
-/* line 16, ../sass/style.sass */
+/* line 20, ../sass/style.sass */
 h2 {
   text-align: center;
 }
 
-/* line 19, ../sass/style.sass */
+/* line 23, ../sass/style.sass */
 .accueil_chantier {
   display: flex;
   align-items: stretch;
 }
 
-/* line 23, ../sass/style.sass */
+/* line 27, ../sass/style.sass */
 .sur-le-terrain .view-content {
   display: flex;
   justify-content: space-between;
