@@ -17,7 +17,19 @@ body header .logo-nav {
   align-items: flex-end;
 }
 
-/* line 17, ../sass/style.sass */
-table {
-  border-spacing: 1em;
+/* line 16, ../sass/style.sass */
+h2 {
+  text-align: center;
+}
+
+/* line 19, ../sass/style.sass */
+.accueil_chantier {
+  display: flex;
+  align-items: stretch;
+}
+
+/* line 23, ../sass/style.sass */
+.sur-le-terrain .view-content {
+  display: flex;
+  justify-content: space-between;
 }
