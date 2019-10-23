@@ -8,9 +8,9 @@ package: 'Bootstrap'
 
 regions:
   nav_social: 'Navigation Social'
-  nav_main: 'Navigation'
-  logo: 'Logo'
-  nav_collapsible: 'Navigation (Collapsible)'
+  navigation: 'Navigation'
+  branding: 'Logo'
+  navigation_collapsible: 'Navigation (Collapsible)'
   aside_top: 'Contenu au dessus'
   sidebar_gauche: 'Sidebar gauche'
   sidebar_droit: 'Sidebar droit'

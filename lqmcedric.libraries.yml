@@ -9,4 +9,5 @@ global-styling:
       css/jquery.steps.css: {}
       css/theme.css: {}
       css/font-rubiklato.css: {}
+      css/font-awesome.min.css: {}
       css/style.css: {}

@@ -1,34 +1,58 @@
-<header class="container">
-	{% if page.nav_social %}	
-	<div class="row social">
-		<nav class="col col-lg-12 nav-social">
-			{{ page.nav_social }}
-		</nav>
+{# Navbar #}
+{% if page.navigation or page.navigation_collapsible %}
+{% block navbar %}
+{%
+	set navbar_classes = [
+		'navbar',
+		theme.settings.navbar_inverse ? 'navbar-inverse' : 'navbar-default',
+		theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
+	]
+%}
+<header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
+	<div class="container">
+		<div class="row">
+			{% if page.nav_social %}	
+			<div class="row social">
+				<nav class="col col-lg-12 nav-social">
+					{{ page.nav_social }}
+				</nav>
+			</div>
+			{% endif %}
+		</div>
+
+		<div class="row">
+		{% if page.branding %}
+		<div class="logo col-md-4 vcenter">
+			{{ page.branding }}
+		</div>
+		{% endif %}
+		<div class="navbar-header col-md-8 vcenter">
+			{{ page.navigation }}
+			{# .btn-navbar is used as the toggle for collapsed navbar content #}
+			{% if page.navigation_collapsible %}
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+				<span class="sr-only">{{ 'Toggle navigation'|t }}</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			{% endif %}
+		</div>
+
+		{# Navigation (collapsible) #}
+		{% if page.navigation_collapsible %}
+		<div id="navbar-collapse" class="navbar-collapse collapse">
+			{{ page.navigation_collapsible }}
+		</div>
+		{% endif %}
 	</div>
-	{% endif %}
-	
-	<div class="row logo-nav">
-		{% if page.logo %}
-		<section class="logo col-lg-2 col-md-12">
-			{{ page.logo }}
-		</section>
-		{% endif %}
-	
-		{% if page.nav_main %}
-		<section class="col col-lg-10 nav-main">
-			{{ page.nav_main }}
-		</section>
-		{% endif %}
 	</div>
 </header>
-
-{%if page.aside_top %}
-<div class="container">
-	<div class="row">
-			{{ page.aside_top }}	
-	</div>
-</div>
+{% endblock %}
 {% endif %}
+
+
+
 
 <main class="container">
 	<div class="row">
