@@ -10,7 +10,6 @@
 %}
 <header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
 	<div class="container">
-		<div class="row">
 			{% if page.nav_social %}	
 			<div class="row social">
 				<nav class="col col-lg-12 nav-social">
@@ -18,7 +17,6 @@
 				</nav>
 			</div>
 			{% endif %}
-		</div>
 
 		<div class="row">
 		{% if page.branding %}
@@ -52,13 +50,19 @@
 {% endif %}
 
 
-
+{% if page.aside_top %}
+<div class="container">
+	<div class="row">
+		{{ page.aside_top }}
+	</div>
+</div>
+{% endif %}
 
 <main class="container">
 	<div class="row">
 		{% if page.sidebar_gauche %}	
 		{% block sidebar_gauche %}
-		<section class="col-lg-3 sidebar-gauche"  role="complementary">
+		<section class="col-sm-4 sidebar-gauche"  role="complementary">
 			{{ page.sidebar_gauche }}
 		</section>
 		{% endblock %}
@@ -68,9 +72,9 @@
 		{# Content #}
 		{%
 		set content_classes = [
-		page.sidebar_gauche and page.sidebar_droit ? 'col-sm-6',
-		page.sidebar_gauche and page.sidebar_droit is empty ? 'col-sm-9',
-		page.sidebar_droit and page.sidebar_gauche is empty ? 'col-sm-9',
+		page.sidebar_gauche and page.sidebar_droit ? 'col-sm-4',
+		page.sidebar_gauche and page.sidebar_droit is empty ? 'col-sm-8',
+		page.sidebar_droit and page.sidebar_gauche is empty ? 'col-sm-8',
 		page.sidebar_gauche is empty and page.sidebar_droit is empty ? 'col-sm-12'
 		]
 		%}
@@ -100,7 +104,7 @@
 
 		{% if page.sidebar_droit %}
 		{% block sidebar_droit %}
-		<section class="col-lg-3 sidebar-droit" role="complementary">
+		<section class="col-lg-4 sidebar-droit" role="complementary">
 			{{ page.sidebar_droit }}
 		</section>
 		{% endblock %}
@@ -118,19 +122,19 @@
 
 <footer class="container">
 	<section class="row footer-coordonnees">
-		<section class="col-lg-3">
+		<section class="col-lg-4">
 			{% if page.footer_gauche %}
 			{{ page.footer_gauche }}
 			{% endif %}
 		</section>
 
-		<section class="col-lg-3">
+		<section class="col-lg-4">
 			{% if page.footer_centre %}
 			{{ page.footer_centre }}
 			{% endif %}
 		</section>
 
-		<section class="col-lg-6">
+		<section class="col-lg-4">
 			{% if page.footer_droit %}
 			{{ page.footer_droit }}
 			{% endif %}
