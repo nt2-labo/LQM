@@ -379,42 +379,47 @@ nav.pager-nav {
   font-size: 1rem;
   color: #578FA0;
 }
-/* line 288, ../sass/style.sass */
-.page-node-type-actualite .sidebar-date:before, .page-node-type-actualite .sidebar-lieu:before, .page-node-type-actualite .sidebar-fichier:before, .page-node-type-actualite .sidebar-contact:before, .page-node-type-actualite .sidebar-site:before, .page-node-type-actualite .sidebar-twitter:before, .page-node-type-actualite .sidebar-facebook:before, .page-node-type-actualite .sidebar-instagram:before, .page-node-type-partenaire .sidebar-date:before, .page-node-type-partenaire .sidebar-lieu:before, .page-node-type-partenaire .sidebar-fichier:before, .page-node-type-partenaire .sidebar-contact:before, .page-node-type-partenaire .sidebar-site:before, .page-node-type-partenaire .sidebar-twitter:before, .page-node-type-partenaire .sidebar-facebook:before, .page-node-type-partenaire .sidebar-instagram:before, .page-node-type-membre .sidebar-date:before, .page-node-type-membre .sidebar-lieu:before, .page-node-type-membre .sidebar-fichier:before, .page-node-type-membre .sidebar-contact:before, .page-node-type-membre .sidebar-site:before, .page-node-type-membre .sidebar-twitter:before, .page-node-type-membre .sidebar-facebook:before, .page-node-type-membre .sidebar-instagram:before {
+
+/* line 289, ../sass/style.sass */
+.sidebar-gauche label {
+  display: none;
+}
+/* line 292, ../sass/style.sass */
+.sidebar-gauche .sidebar-date:before, .sidebar-gauche .sidebar-lieu:before, .sidebar-gauche .sidebar-fichier:before, .sidebar-gauche .sidebar-contact:before, .sidebar-gauche .sidebar-site:before, .sidebar-gauche .sidebar-twitter:before, .sidebar-gauche .sidebar-facebook:before, .sidebar-gauche .sidebar-instagram:before {
   font-family: "FontAwesome";
   margin: 0 1em 0 0;
   font-size: 2.5em;
   line-height: 2.5em;
 }
-/* line 296, ../sass/style.sass */
-.page-node-type-actualite .sidebar-date:before, .page-node-type-partenaire .sidebar-date:before, .page-node-type-membre .sidebar-date:before {
+/* line 299, ../sass/style.sass */
+.sidebar-gauche .sidebar-date:before {
   content: "";
 }
-/* line 298, ../sass/style.sass */
-.page-node-type-actualite .sidebar-lieu:before, .page-node-type-partenaire .sidebar-lieu:before, .page-node-type-membre .sidebar-lieu:before {
+/* line 301, ../sass/style.sass */
+.sidebar-gauche .sidebar-lieu:before {
   content: "";
 }
-/* line 300, ../sass/style.sass */
-.page-node-type-actualite .sidebar-fichier:before, .page-node-type-partenaire .sidebar-fichier:before, .page-node-type-membre .sidebar-fichier:before {
+/* line 303, ../sass/style.sass */
+.sidebar-gauche .sidebar-fichier:before {
   content: "";
 }
-/* line 302, ../sass/style.sass */
-.page-node-type-actualite .sidebar-contact:before, .page-node-type-partenaire .sidebar-contact:before, .page-node-type-membre .sidebar-contact:before {
+/* line 305, ../sass/style.sass */
+.sidebar-gauche .sidebar-contact:before {
   content: "";
 }
-/* line 304, ../sass/style.sass */
-.page-node-type-actualite .sidebar-site:before, .page-node-type-partenaire .sidebar-site:before, .page-node-type-membre .sidebar-site:before {
+/* line 307, ../sass/style.sass */
+.sidebar-gauche .sidebar-site:before {
   content: "";
 }
-/* line 306, ../sass/style.sass */
-.page-node-type-actualite .sidebar-twitter:before, .page-node-type-partenaire .sidebar-twitter:before, .page-node-type-membre .sidebar-twitter:before {
+/* line 309, ../sass/style.sass */
+.sidebar-gauche .sidebar-twitter:before {
   content: "";
 }
-/* line 308, ../sass/style.sass */
-.page-node-type-actualite .sidebar-facebook:before, .page-node-type-partenaire .sidebar-facebook:before, .page-node-type-membre .sidebar-facebook:before {
+/* line 311, ../sass/style.sass */
+.sidebar-gauche .sidebar-facebook:before {
   content: "";
 }
-/* line 310, ../sass/style.sass */
-.page-node-type-actualite .sidebar-instagram:before, .page-node-type-partenaire .sidebar-instagram:before, .page-node-type-membre .sidebar-instagram:before {
+/* line 313, ../sass/style.sass */
+.sidebar-gauche .sidebar-instagram:before {
   content: "";
 }
