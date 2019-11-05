@@ -33,69 +33,77 @@ p {
 }
 
 /* line 30, ../sass/style.sass */
+button, .button {
+  margin: 0.2em;
+  padding: 0.2em 1em !important;
+  height: auto;
+  width: auto;
+}
+
+/* line 36, ../sass/style.sass */
 h1 {
   line-height: 1em;
   font-size: 2.5em;
 }
 
-/* line 34, ../sass/style.sass */
+/* line 40, ../sass/style.sass */
 h2 {
   font-size: 1.8em;
   text-align: center;
 }
 
-/* line 38, ../sass/style.sass */
+/* line 44, ../sass/style.sass */
 h3 {
   font-size: 1.4em;
   line-height: 1em;
 }
-/* line 41, ../sass/style.sass */
+/* line 47, ../sass/style.sass */
 h3 a {
   line-height: 1.2em;
 }
 
-/* line 44, ../sass/style.sass */
+/* line 50, ../sass/style.sass */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
   color: black;
 }
 
-/* line 48, ../sass/style.sass */
+/* line 54, ../sass/style.sass */
 .content ul, .content ol {
   margin: 0.5em;
   padding: 0.5em;
   list-style: disc;
 }
 
-/* line 53, ../sass/style.sass */
+/* line 59, ../sass/style.sass */
 body header, body main, body footer {
   box-sizing: border-box;
 }
-/* line 56, ../sass/style.sass */
+/* line 62, ../sass/style.sass */
 body .region-nav-social {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* line 61, ../sass/style.sass */
+/* line 67, ../sass/style.sass */
 body .region-nav-social .control-label {
   display: none;
 }
-/* line 64, ../sass/style.sass */
+/* line 70, ../sass/style.sass */
 body .navbar-default {
   margin-bottom: 2em;
   background-color: white;
   border: none;
 }
-/* line 69, ../sass/style.sass */
+/* line 75, ../sass/style.sass */
 body .navbar-default .nav-social {
   display: flex;
   justify-content: flex-end;
 }
-/* line 73, ../sass/style.sass */
+/* line 79, ../sass/style.sass */
 body .navbar-default .navbar-nav {
   float: right;
 }
-/* line 76, ../sass/style.sass */
+/* line 82, ../sass/style.sass */
 body .navbar-default .fa {
   display: inline-block;
   font-family: FontAwesome;
@@ -105,51 +113,51 @@ body .navbar-default .fa {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 85, ../sass/style.sass */
+/* line 91, ../sass/style.sass */
 body .navbar-default .fa-facebook::before {
   content: "";
 }
-/* line 87, ../sass/style.sass */
+/* line 93, ../sass/style.sass */
 body .navbar-default .fa-twitter::before {
   content: "";
 }
-/* line 89, ../sass/style.sass */
+/* line 95, ../sass/style.sass */
 body .navbar-default .fa-instagram::before {
   content: "";
 }
-/* line 92, ../sass/style.sass */
+/* line 98, ../sass/style.sass */
 body .navbar-default .list-social {
   display: flex;
 }
-/* line 95, ../sass/style.sass */
+/* line 101, ../sass/style.sass */
 body .navbar-default .list-social li {
   margin: 0 0.5em;
   padding: 0.2em;
   font-size: 1.2em;
 }
-/* line 100, ../sass/style.sass */
+/* line 106, ../sass/style.sass */
 body footer {
   border-top: 1px solid #eee;
   margin-top: 2em;
 }
-/* line 103, ../sass/style.sass */
+/* line 109, ../sass/style.sass */
 body footer section {
   padding-top: 0;
 }
 
-/* line 106, ../sass/style.sass */
+/* line 112, ../sass/style.sass */
 .field--name-field-fichier.field--type-file {
   clear: both !important;
   display: block !important;
 }
 
-/* line 110, ../sass/style.sass */
+/* line 116, ../sass/style.sass */
 .accueil_chantier {
   display: flex;
   align-items: stretch;
   margin-bottom: 2em;
 }
-/* line 114, ../sass/style.sass */
+/* line 120, ../sass/style.sass */
 .accueil_chantier .marg {
   margin: 0 0.5em;
   border-radius: 0.2em;
@@ -163,60 +171,60 @@ body footer section {
   align-items: center;
 }
 
-/* line 126, ../sass/style.sass */
+/* line 132, ../sass/style.sass */
 .sur-le-terrain .view-content {
   display: flex;
   justify-content: space-between;
 }
-/* line 130, ../sass/style.sass */
+/* line 136, ../sass/style.sass */
 .sur-le-terrain .view-content .item-billet-accueil {
   padding: 0;
 }
-/* line 132, ../sass/style.sass */
+/* line 138, ../sass/style.sass */
 .sur-le-terrain .view-content .item-billet-accueil .views-field-field-image {
   margin-bottom: 2em;
 }
-/* line 134, ../sass/style.sass */
+/* line 140, ../sass/style.sass */
 .sur-le-terrain .view-content .item-billet-accueil .views-field-title, .sur-le-terrain .view-content .item-billet-accueil .views-field-field-auteur {
   margin: 0.5em;
 }
 
-/* line 137, ../sass/style.sass */
+/* line 143, ../sass/style.sass */
 .quicktabs-tabs {
   margin: 4em 0;
 }
 
-/* line 140, ../sass/style.sass */
+/* line 146, ../sass/style.sass */
 .quicktabs-tabs li a, .bef-links a {
   padding: 6px 10px 8px;
 }
 
-/* line 143, ../sass/style.sass */
+/* line 149, ../sass/style.sass */
 .quicktabs-tabs li.active a, .bef-links a {
   border-radius: 2px;
   background-color: #e7e7e7;
 }
 
 /*=======Equipe========== */
-/* line 149, ../sass/style.sass */
+/* line 155, ../sass/style.sass */
 .view-archives .views-row, .view-actualites .views-row, .view-billets .views-row {
   clear: both;
   margin-bottom: 4em;
 }
-/* line 153, ../sass/style.sass */
+/* line 159, ../sass/style.sass */
 .view-archives .views-row .views-field-title, .view-actualites .views-row .views-field-title, .view-billets .views-row .views-field-title {
   text-align: left;
   padding: 0;
   margin: 1em 0 0 0;
 }
-/* line 157, ../sass/style.sass */
+/* line 163, ../sass/style.sass */
 .view-archives .views-row .views-field-title a, .view-actualites .views-row .views-field-title a, .view-billets .views-row .views-field-title a {
   line-height: 1em;
   color: #252525;
   font-weight: 300;
   font-variant-ligatures: common-ligatures;
 }
-/* line 163, ../sass/style.sass */
+/* line 169, ../sass/style.sass */
 .view-archives .views-row .views-field-field-type-actualite a, .view-actualites .views-row .views-field-field-type-actualite a, .view-billets .views-row .views-field-field-type-actualite a {
   font-size: 1em;
   line-height: 1.85714em;
@@ -224,7 +232,7 @@ body footer section {
   color: #666666;
   font-weight: 400;
 }
-/* line 170, ../sass/style.sass */
+/* line 176, ../sass/style.sass */
 .view-archives .views-row .views-field-field-date, .view-actualites .views-row .views-field-field-date, .view-billets .views-row .views-field-field-date {
   font-size: 1.35714em;
   line-height: 1.68421em;
@@ -233,7 +241,7 @@ body footer section {
   margin-top: 2em;
 }
 
-/* line 178, ../sass/style.sass */
+/* line 184, ../sass/style.sass */
 .view-archives .views-field-field-image img, .view-actualites .views-field-field-image img, .view-billets .views-field-field-image img {
   border-radius: 6px;
   border: 1px solid #ececec;
@@ -241,24 +249,24 @@ body footer section {
   height: auto;
 }
 
-/* line 184, ../sass/style.sass */
+/* line 190, ../sass/style.sass */
 .view-equipe .views-row {
   margin: 2em 0;
 }
 
-/* line 187, ../sass/style.sass */
+/* line 193, ../sass/style.sass */
 .form-select, .bef-links {
   padding: 0.5em 0;
 }
 
-/* line 190, ../sass/style.sass */
+/* line 196, ../sass/style.sass */
 nav.pager-nav {
   padding-top: 2em;
   clear: both;
 }
 
 /*=======Equipes/Partenaires/Chantiers========== */
-/* line 196, ../sass/style.sass */
+/* line 202, ../sass/style.sass */
 .item-membre, .item-partenaire, .item-chantier {
   display: flex;
   flex-flow: column wrap;
@@ -266,31 +274,31 @@ nav.pager-nav {
   align-items: center;
   padding: 2em;
 }
-/* line 203, ../sass/style.sass */
+/* line 209, ../sass/style.sass */
 .item-membre .views-field-title, .item-partenaire .views-field-title, .item-chantier .views-field-title {
   text-align: center;
 }
-/* line 205, ../sass/style.sass */
+/* line 211, ../sass/style.sass */
 .item-membre .views-field-title a, .item-partenaire .views-field-title a, .item-chantier .views-field-title a {
   margin: 0.5em 0;
   color: black;
 }
-/* line 210, ../sass/style.sass */
+/* line 216, ../sass/style.sass */
 .item-membre .views-field-field-type-membre a, .item-partenaire .views-field-field-type-membre a, .item-chantier .views-field-field-type-membre a {
   color: black;
 }
-/* line 212, ../sass/style.sass */
+/* line 218, ../sass/style.sass */
 .item-membre .field-content, .item-partenaire .field-content, .item-chantier .field-content {
   font-size: 1.2em;
   font-weight: 300;
 }
 
-/* line 216, ../sass/style.sass */
+/* line 222, ../sass/style.sass */
 .item-membre:nth-of-type(3n+1), .item-partenaire:nth-of-type(3n+1), .item-chantier:nth-of-type(3n+1) {
   clear: left;
 }
 
-/* line 220, ../sass/style.sass */
+/* line 226, ../sass/style.sass */
 .views-field-field-portrait img {
   border-radius: 50%;
   width: 150px;
@@ -298,39 +306,39 @@ nav.pager-nav {
   margin: 0 auto 1em auto;
 }
 
-/* line 227, ../sass/style.sass */
+/* line 233, ../sass/style.sass */
 .billet .field {
   clear: none;
 }
-/* line 231, ../sass/style.sass */
+/* line 237, ../sass/style.sass */
 .billet .field--name-field-auteur div {
   font-weight: 300;
   font-size: 1.2em;
 }
-/* line 235, ../sass/style.sass */
+/* line 241, ../sass/style.sass */
 .billet .field--name-field-auteur .field--label {
   display: none;
 }
-/* line 238, ../sass/style.sass */
+/* line 244, ../sass/style.sass */
 .billet .field--name-field-auteur .field--item:last-child {
   margin-bottom: 1em;
 }
-/* line 241, ../sass/style.sass */
+/* line 247, ../sass/style.sass */
 .billet .field--name-body {
   margin: 2em 0;
 }
-/* line 244, ../sass/style.sass */
+/* line 250, ../sass/style.sass */
 .billet .field--name-field-chantier-lie, .billet .field--name-field-membre-equipe-lie, .billet .field--name-field-partenaire-lie {
   display: block;
   margin-bottom: 2em;
 }
-/* line 247, ../sass/style.sass */
+/* line 253, ../sass/style.sass */
 .billet .field--name-field-chantier-lie a, .billet .field--name-field-membre-equipe-lie a, .billet .field--name-field-partenaire-lie a {
   font-weight: 400;
   font-size: 1.2em;
 }
 
-/* line 251, ../sass/style.sass */
+/* line 257, ../sass/style.sass */
 .joindre-container {
   display: flex;
   flex-flow: row wrap;
@@ -338,21 +346,21 @@ nav.pager-nav {
   align-items: center;
 }
 
-/* line 258, ../sass/style.sass */
+/* line 264, ../sass/style.sass */
 .flex-control-nav {
   bottom: -80px;
 }
 
-/* line 261, ../sass/style.sass */
+/* line 267, ../sass/style.sass */
 .well {
   background-color: white;
 }
-/* line 263, ../sass/style.sass */
+/* line 269, ../sass/style.sass */
 .well .views-field-type {
   font-weight: bold;
 }
 
-/* line 267, ../sass/style.sass */
+/* line 273, ../sass/style.sass */
 .page-node-type-actualite .sidebar-droit section, .page-node-type-partenaire .sidebar-droit section, .page-node-type-membre .sidebar-droit section {
   display: flex;
   justify-content: flex-start;
@@ -361,52 +369,52 @@ nav.pager-nav {
   margin: 0;
   text-align: left;
 }
-/* line 275, ../sass/style.sass */
+/* line 281, ../sass/style.sass */
 .page-node-type-actualite .sidebar-droit section .glyphicon, .page-node-type-partenaire .sidebar-droit section .glyphicon, .page-node-type-membre .sidebar-droit section .glyphicon {
   display: none;
 }
-/* line 277, ../sass/style.sass */
+/* line 283, ../sass/style.sass */
 .page-node-type-actualite .sidebar-droit section .file-link, .page-node-type-actualite .sidebar-droit section .file-size, .page-node-type-partenaire .sidebar-droit section .file-link, .page-node-type-partenaire .sidebar-droit section .file-size, .page-node-type-membre .sidebar-droit section .file-link, .page-node-type-membre .sidebar-droit section .file-size {
   font-family: "Rubik";
   font-size: 1rem;
   color: #578FA0;
 }
-/* line 282, ../sass/style.sass */
+/* line 288, ../sass/style.sass */
 .page-node-type-actualite .sidebar-date:before, .page-node-type-actualite .sidebar-lieu:before, .page-node-type-actualite .sidebar-fichier:before, .page-node-type-actualite .sidebar-contact:before, .page-node-type-actualite .sidebar-site:before, .page-node-type-actualite .sidebar-twitter:before, .page-node-type-actualite .sidebar-facebook:before, .page-node-type-actualite .sidebar-instagram:before, .page-node-type-partenaire .sidebar-date:before, .page-node-type-partenaire .sidebar-lieu:before, .page-node-type-partenaire .sidebar-fichier:before, .page-node-type-partenaire .sidebar-contact:before, .page-node-type-partenaire .sidebar-site:before, .page-node-type-partenaire .sidebar-twitter:before, .page-node-type-partenaire .sidebar-facebook:before, .page-node-type-partenaire .sidebar-instagram:before, .page-node-type-membre .sidebar-date:before, .page-node-type-membre .sidebar-lieu:before, .page-node-type-membre .sidebar-fichier:before, .page-node-type-membre .sidebar-contact:before, .page-node-type-membre .sidebar-site:before, .page-node-type-membre .sidebar-twitter:before, .page-node-type-membre .sidebar-facebook:before, .page-node-type-membre .sidebar-instagram:before {
   font-family: "FontAwesome";
   margin: 0 1em 0 0;
   font-size: 2.5em;
   line-height: 2.5em;
 }
-/* line 290, ../sass/style.sass */
+/* line 296, ../sass/style.sass */
 .page-node-type-actualite .sidebar-date:before, .page-node-type-partenaire .sidebar-date:before, .page-node-type-membre .sidebar-date:before {
   content: "";
 }
-/* line 292, ../sass/style.sass */
+/* line 298, ../sass/style.sass */
 .page-node-type-actualite .sidebar-lieu:before, .page-node-type-partenaire .sidebar-lieu:before, .page-node-type-membre .sidebar-lieu:before {
   content: "";
 }
-/* line 294, ../sass/style.sass */
+/* line 300, ../sass/style.sass */
 .page-node-type-actualite .sidebar-fichier:before, .page-node-type-partenaire .sidebar-fichier:before, .page-node-type-membre .sidebar-fichier:before {
   content: "";
 }
-/* line 296, ../sass/style.sass */
+/* line 302, ../sass/style.sass */
 .page-node-type-actualite .sidebar-contact:before, .page-node-type-partenaire .sidebar-contact:before, .page-node-type-membre .sidebar-contact:before {
   content: "";
 }
-/* line 298, ../sass/style.sass */
+/* line 304, ../sass/style.sass */
 .page-node-type-actualite .sidebar-site:before, .page-node-type-partenaire .sidebar-site:before, .page-node-type-membre .sidebar-site:before {
-  content: "";
+  content: "";
 }
-/* line 300, ../sass/style.sass */
+/* line 306, ../sass/style.sass */
 .page-node-type-actualite .sidebar-twitter:before, .page-node-type-partenaire .sidebar-twitter:before, .page-node-type-membre .sidebar-twitter:before {
   content: "";
 }
-/* line 302, ../sass/style.sass */
+/* line 308, ../sass/style.sass */
 .page-node-type-actualite .sidebar-facebook:before, .page-node-type-partenaire .sidebar-facebook:before, .page-node-type-membre .sidebar-facebook:before {
   content: "";
 }
-/* line 304, ../sass/style.sass */
+/* line 310, ../sass/style.sass */
 .page-node-type-actualite .sidebar-instagram:before, .page-node-type-partenaire .sidebar-instagram:before, .page-node-type-membre .sidebar-instagram:before {
   content: "";
 }
