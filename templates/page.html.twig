@@ -51,11 +51,7 @@
 
 
 {% if page.aside_top %}
-<div class="container">
-	<div class="row">
 		{{ page.aside_top }}
-	</div>
-</div>
 {% endif %}
 
 <main class="container">
@@ -139,5 +135,12 @@
 			{{ page.footer_droit }}
 			{% endif %}
 		</section>
+	</section>
+	<section class="row footer-copyrights">
+		<div class="col-lg-12">
+		{% if page.footer_copy %}
+			{{ page.footer_copy }}
+		{% endif %}
+		</div>
 	</section>
 </footer>

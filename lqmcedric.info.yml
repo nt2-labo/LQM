@@ -21,6 +21,7 @@ regions:
   footer_gauche: 'Footer gauche'
   footer_centre: 'Footer centre'
   footer_droit: 'Footer Droit'
+  footer_copy: 'Footer copyrights'
 
 libraries:
   - 'lqmcedric/global-styling'
