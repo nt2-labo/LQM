@@ -16,6 +16,7 @@ a {
   text-decoration: none !important;
   font-weight: 300;
   color: #578fa0;
+	border: 5px solid salmon;
 }
 
 /* line 21, ../sass/style.sass */
