@@ -329,18 +329,19 @@ nav.pager-nav {
 .item-membre .views-field-field-type-membre a, .item-partenaire .views-field-field-type-membre a, .item-chantier .views-field-field-type-membre a {
   color: black;
 }
+
+
+/* line 245, ../sass/style.sass */
+.item-membre .field-content, .item-partenaire .field-content, .item-chantier .field-content {
+  font-size: 1.2em;
+  font-weight: 300;
+}
 .item-membre .views-filed-title{
 	font-weight: bold;
 }
 
 .views-field-field-institution .field-content, .views-field-field-type-membre{
 	font-size: 1em;
-}
-
-/* line 245, ../sass/style.sass */
-.item-membre .field-content, .item-partenaire .field-content, .item-chantier .field-content {
-  font-size: 1.2em;
-  font-weight: 300;
 }
 
 /* line 249, ../sass/style.sass */
