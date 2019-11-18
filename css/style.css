@@ -24,6 +24,10 @@ a:visited, a:hover {
   color: #703796;
 }
 
+.accueil_chantier a {
+	line-height: 1em;
+}
+
 /* line 25, ../sass/style.sass */
 p {
   font-weight: 400;
