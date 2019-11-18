@@ -231,7 +231,7 @@ body footer .region-footer-copy {
 }
 
 /* line 168, ../sass/style.sass */
-.quicktabs-tabs li.active a, .bef-links a {
+.quicktabs-tabs li.active a, .bef-link-active a {
   border-radius: 2px;
   background-color: #e7e7e7;
 }
