@@ -569,6 +569,10 @@ nav.pager-nav {
   body footer {
     margin-top: 1em;
   }
+  #block-droitsfooter .field a
+  {
+    display: block;
+  }
 }
 
 
