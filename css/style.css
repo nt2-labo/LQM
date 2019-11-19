@@ -217,7 +217,7 @@ body footer .region-footer-copy {
   margin-bottom: 2em;
 }
 /* line 159, ../sass/style.sass */
-.sur-le-terrain .view-content .item-billet-accueil .views-field-title, .sur-le-terrain .view-content .item-billet-accueil .views-field-field-auteur {
+.item-billet-accueil .views-field-field-date-billet, .item-billet-accueil .views-field-field-auteur{
 	margin: 1em;
 }
 
