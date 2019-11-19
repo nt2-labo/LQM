@@ -222,7 +222,7 @@ body footer .region-footer-copy {
 
 /* line 162, ../sass/style.sass */
 .quicktabs-tabs {
-  margin: 4em 0;
+  margin: 2em 0;
 }
 
 /* line 165, ../sass/style.sass */
@@ -554,6 +554,9 @@ nav.pager-nav {
   .container {
     padding-right: 0px; 
     padding-left: 0px;
+  }
+  body .navbar-default .navbar-nav {
+    float: none;
   }
 }
 
