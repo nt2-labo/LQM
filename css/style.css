@@ -537,7 +537,7 @@ nav.pager-nav {
     height: 30px;
     overflow: hidden;
     float: left;
-    padding: 3px;
+    padding: 3px !important;
   }
   button#edit-submit-environnement-recherche::before {
     content: '\01F50D';
