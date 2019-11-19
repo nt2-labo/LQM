@@ -218,6 +218,7 @@ body footer .region-footer-copy {
 }
 /* line 159, ../sass/style.sass */
 .sur-le-terrain .view-content .item-billet-accueil .views-field-title, .sur-le-terrain .view-content .item-billet-accueil .views-field-field-auteur {
+	margin: 1em;
 }
 
 /* line 162, ../sass/style.sass */
