@@ -574,6 +574,10 @@ nav.pager-nav {
     display: block;
     margin-right: 50%;
   }
+  body .region-nav-social {
+      justify-content: space-between;
+      width: 100%;
+  }
 }
 
 
