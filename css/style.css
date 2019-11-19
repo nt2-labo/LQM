@@ -217,8 +217,8 @@ body footer .region-footer-copy {
   margin-bottom: 2em;
 }
 /* line 159, ../sass/style.sass */
-.sur-le-terrain .view-content .item-billet-accueil .views-field-title, .sur-le-terrain .view-content .item-billet-accueil .views-field-field-auteur {
-  margin: 0.5em;
+.item-billet-accueil .views-field-field-date-billet, .item-billet-accueil .views-field-field-auteur{
+	margin: 1em;
 }
 
 /* line 162, ../sass/style.sass */
@@ -499,10 +499,6 @@ nav.pager-nav {
 /* line 349, ../sass/style.sass */
 .row {
   margin: 0;
-}
-
-.item-billet-accueil .views-field-field-date-billet, .item-billet-accueil .views-field-field-auteur{
-	margin: 0 1em;
 }
 
 @media (max-width: 767px){
