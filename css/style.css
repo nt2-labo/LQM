@@ -209,6 +209,9 @@ body footer .region-footer-copy {
 .accueil_chantier .marg p {
 	margin: 0;
 }
+.accueil_chantier .marg img{
+	margin-top: 3rem;
+}
 
 /* line 151, ../sass/style.sass */
 .sur-le-terrain .view-content {
