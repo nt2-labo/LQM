@@ -501,6 +501,9 @@ nav.pager-nav {
   margin: 0;
 }
 
+.views-field-field-date-billet{
+	margin: 0 0.5em;
+}
 
 @media (max-width: 767px){
   section, footer, section.section--even {
