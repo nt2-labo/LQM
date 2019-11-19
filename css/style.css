@@ -506,6 +506,10 @@ nav.pager-nav {
   section, footer, section.section--even {
       padding: 1em 0;
   }
+  .navbar-default .navbar-toggle {
+    border: none;
+    border-radius: 0;
+  } 
   #block-logoprincipal
   {
     max-width: calc(100% - 100px);
