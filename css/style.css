@@ -505,6 +505,10 @@ nav.pager-nav {
   section, footer, section.section--even {
       padding: 1em 0;
   }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus
+  {
+    background-color: none;
+  }
   .navbar-default .navbar-toggle {
     border: none;
     border-radius: 0;
