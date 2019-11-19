@@ -26,7 +26,6 @@ a:visited, a:hover {
 
 .accueil_chantier a {
 	line-height: 1em;
-	border: 1px solid red;
 }
 
 /* line 25, ../sass/style.sass */
@@ -341,7 +340,7 @@ nav.pager-nav {
 	font-weight: bold;
 }
 
-.views-field-field-institution .field-content, .item-membre .views-field-field-type-membre{
+.views-field-field-institution .field-content, .item-membre .views-field-field-type-membre .field-content a{
 	font-size: 1rem;
 }
 
