@@ -533,10 +533,11 @@ nav.pager-nav {
   }
 
   button#edit-submit-environnement-recherche {
-    width: 50px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     overflow: hidden;
     float: left;
+    padding: 3px;
   }
   button#edit-submit-environnement-recherche::before {
     content: '\01F50D';
@@ -544,12 +545,12 @@ nav.pager-nav {
     width: 30px;
     height: 30px;
     margin: auto;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 25px;
   }
   #views-exposed-form-environnement-recherche-page-1 .form-item
   {
-    width: calc(100% - 70px);
+    width: calc(100% - 30px);
     float: left;
   }
   ul.quicktabs-tabs li {
@@ -561,6 +562,13 @@ nav.pager-nav {
   }
   body .navbar-default .navbar-nav {
     float: none;
+  }
+  .item-chantier
+  {
+    padding: 1em;
+  }
+  body footer {
+    margin-top: 1em;
   }
 }
 
