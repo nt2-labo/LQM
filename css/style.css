@@ -549,4 +549,13 @@ nav.pager-nav {
     width: calc(100% - 70px);
     float: left;
   }
+  ul.quicktabs-tabs li {
+    display: block;
+  }
+  .container {
+    padding-right: 0px; 
+    padding-left: 0px;
+  }
 }
+
+
