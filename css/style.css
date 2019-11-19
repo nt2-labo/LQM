@@ -522,12 +522,12 @@ nav.pager-nav {
 
   button#edit-submit-environnement-recherche {
     width: 50px;
-    height: 1.85714286em;
+    height: 34px;
     overflow: hidden;
     float: left;
   }
   button#edit-submit-environnement-recherche::before {
-    content: '\e805';
+    content: '\01F50D';
     display: block;
     width: 30px;
     height: 30px;
