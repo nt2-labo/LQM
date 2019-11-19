@@ -221,8 +221,8 @@ body footer .region-footer-copy {
   margin-bottom: 2em;
 }
 /* line 159, ../sass/style.sass */
-.item-billet-accueil .views-field-field-date-billet, .item-billet-accueil .views-field-field-auteur{
-	margin: 1em;
+.item-billet-accueil .views-field-field-date-billet, .item-billet-accueil .views-field-title, .item-billet-accueil .views-field-field-auteur{
+	margin: 0.2rem 1rem;
 }
 
 /* line 162, ../sass/style.sass */
