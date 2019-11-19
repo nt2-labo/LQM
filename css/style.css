@@ -499,3 +499,24 @@ nav.pager-nav {
 .row {
   margin: 0;
 }
+
+
+@media (max-width: 767px){
+  section, footer, section.section--even {
+      padding: 1em 0;
+  }
+  #block-logoprincipal
+  {
+    max-width: calc(100% - 100px);
+    float: left;
+  }
+  .navbar-header.col-md-8.vcenter {
+    position: relative;
+  }
+  button.navbar-toggle.collapsed {
+    position: absolute;
+    top: 50%;
+    height: 30%;
+    margin: -5% 0 0 5%;
+  }
+}
