@@ -513,7 +513,7 @@ nav.pager-nav {
   .navbar-header.col-md-8.vcenter {
     position: relative;
   }
-  button.navbar-toggle.collapsed {
+  button.navbar-toggle {
     position: absolute;
     top: 50%;
     height: 30%;
