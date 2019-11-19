@@ -26,6 +26,7 @@ a:visited, a:hover {
 
 .accueil_chantier a {
 	line-height: 1em;
+	border: 1px solid red;
 }
 
 /* line 25, ../sass/style.sass */
@@ -340,7 +341,7 @@ nav.pager-nav {
 	font-weight: bold;
 }
 
-.views-field-field-institution .field-content, .item-membre .views-field-field-type-membre .field-content a{
+.views-field-field-institution .field-content, .item-membre .views-field-field-type-membre{
 	font-size: 1rem;
 }
 
@@ -527,7 +528,7 @@ nav.pager-nav {
     float: left;
   }
   button#edit-submit-environnement-recherche::before {
-    content: '';
+    content: '\01F50D';
     display: block;
     width: 30px;
     height: 30px;
