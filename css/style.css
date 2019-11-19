@@ -572,7 +572,7 @@ nav.pager-nav {
   #block-droitsfooter .field a
   {
     display: block;
-    text-align: center;
+    margin-right: 50%;
   }
 }
 
