@@ -501,7 +501,7 @@ nav.pager-nav {
   margin: 0;
 }
 
-.views-field-field-date-billet{
+.item-billet-accueil .views-field-field-date-billet, .item-billet-accueil .views-field-field-auteur{
 	margin: 0 1em;
 }
 
