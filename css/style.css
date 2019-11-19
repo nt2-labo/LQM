@@ -252,7 +252,7 @@ body footer .region-footer-copy {
 /* line 182, ../sass/style.sass */
 .view-archives .views-row, .view-actualites .views-row, .view-billets .views-row {
   clear: both;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 /* line 186, ../sass/style.sass */
 .view-archives .views-row .views-field-title, .view-actualites .views-row .views-field-title, .view-billets .views-row .views-field-title {
