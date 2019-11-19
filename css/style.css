@@ -542,9 +542,8 @@ nav.pager-nav {
   button#edit-submit-environnement-recherche::before {
     content: '\01F50D';
     display: block;
-    width: 30px;
-    height: 30px;
-    margin: auto;
+    width: 20px;
+    height: 20px;
     font-size: 20px;
     line-height: 25px;
   }
