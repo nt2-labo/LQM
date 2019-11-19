@@ -205,6 +205,7 @@ body footer .region-footer-copy {
 /* line 151, ../sass/style.sass */
 .sur-le-terrain .view-content {
   display: flex;
+	flex-flow: row wrap;
   justify-content: space-between;
 }
 /* line 155, ../sass/style.sass */
