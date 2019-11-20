@@ -537,6 +537,12 @@ nav.pager-nav {
 .field--name-field-partenaire-lie {
   margin: 1em 0;
 }
+
+.field--name-field-lieu p,
+.field--name-field-contact p
+{
+  font-size: 1em;
+}
 .view-eva {
   font-weight: bold;
 }
