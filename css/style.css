@@ -531,6 +531,11 @@ nav.pager-nav {
   margin: 0;
 }
 
+.row.accueil_chantier
+{
+  margin-bottom: 3em;
+}
+
 .field--name-field-chantier-lie,
 .field--name-field-credit,
 .field--name-field-membre-equipe-lie,
