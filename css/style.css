@@ -216,7 +216,8 @@ body footer .region-footer-copy {
 	margin: 3rem 0;
 }
 .item-billet-accueil img.img-responsive {
-  height: 233px;
+  max-height: 232px;
+  height:auto;
 }
 
 /* line 151, ../sass/style.sass */
