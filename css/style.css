@@ -216,8 +216,7 @@ body footer .region-footer-copy {
 	margin: 3rem 0;
 }
 .item-billet-accueil img.img-responsive {
-  
-  height:auto;
+  height: auto;
 }
 
 /* line 151, ../sass/style.sass */
@@ -630,5 +629,13 @@ nav.pager-nav {
       width: 100%;
   }
 }
-
-
+@media (min-width: 768px)
+{
+  
+}
+@media (min-width: 992px)
+{
+  .item-billet-accueil img.img-responsive {
+    height: 232px;
+  }
+}
