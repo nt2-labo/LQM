@@ -215,6 +215,9 @@ body footer .region-footer-copy {
 .accueil_chantier .marg img{
 	margin: 3rem 0;
 }
+.item-billet-accueil img.img-responsive {
+  height: 233px;
+}
 
 /* line 151, ../sass/style.sass */
 .sur-le-terrain .view-content {
