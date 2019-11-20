@@ -519,7 +519,9 @@ nav.pager-nav {
 .field--name-field-credit {
   margin: 1em 0;
 }
-
+.view-eva {
+  font-weight: bold;
+}
 @media (max-width: 767px){
   section, footer, section.section--even {
       padding: 1em 0;
@@ -567,9 +569,7 @@ nav.pager-nav {
     width: calc(100% - 30px);
     float: left;
   }
-  .view-eva {
-    font-weight: bold;
-  }
+  
   ul.quicktabs-tabs li {
     display: block;
   }
