@@ -79,6 +79,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:visited, h2 a:visited, h3 a:visited, h4
 /* line 58, ../sass/style.sass */
 .content ul {
   list-style: disc;
+	margin: -1em 0 2em 2em;
 }
 /* line 60, ../sass/style.sass */
 .content ol li, .content ul li {
@@ -196,7 +197,7 @@ body footer .region-footer-copy {
 /* line 140, ../sass/style.sass */
 .accueil_chantier .marg {
   border-radius: 0.2em;
-  padding: 2em;
+  padding: 0 2em;
   box-sizing: border-box;
   border: 1px solid #ececec;
   text-align: center;
@@ -204,6 +205,15 @@ body footer .region-footer-copy {
   flex-flow: column wrap;
   justify-content: space-between;
   align-items: center;
+}
+.accueil_chantier .marg h3{
+	margin-top: 1rem;
+}
+.accueil_chantier .marg p {
+	margin: 0;
+}
+.accueil_chantier .marg img{
+	margin: 3rem 0;
 }
 
 /* line 151, ../sass/style.sass */
