@@ -494,6 +494,12 @@ nav.pager-nav {
   content: "";
 }
 
+.sidebar-facebook:before,.sidebar-instagram:before, .sidebar-twitter:before, .sidebar-site:before
+{
+  width: 32px;
+  display: inline-block;
+}
+
 /* line 339, ../sass/style.sass */
 .sidebar-instagram:before {
   content: "";
