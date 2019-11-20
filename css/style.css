@@ -374,8 +374,11 @@ nav.pager-nav {
 
 /* line 260, ../sass/style.sass */
 .billet .field {
-  clear: none;
+  content: "";
+  clear: both;
+  display: table;
 }
+
 /* line 264, ../sass/style.sass */
 .billet .field--name-field-auteur div {
   font-weight: 300;
