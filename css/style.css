@@ -374,15 +374,19 @@ nav.pager-nav {
 
 /* line 260, ../sass/style.sass */
 .billet .field {
-  content: "";
   clear: both;
-  display: table;
 }
 
 /* line 264, ../sass/style.sass */
 .billet .field--name-field-auteur div {
   font-weight: 300;
   font-size: 1.2em;
+}
+.billet .field--name-field-date-billet,
+.billet .field--name-field-chantier-lie,
+.billet .field--name-field-lien
+{
+  margin: 1em 0;
 }
 /* line 268, ../sass/style.sass */
 .billet .field--name-field-auteur .field--label {
