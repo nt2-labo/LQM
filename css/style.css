@@ -532,7 +532,9 @@ nav.pager-nav {
 }
 
 .field--name-field-chantier-lie,
-.field--name-field-credit {
+.field--name-field-credit,
+.field--name-field-membre-equipe-lie,
+.field--name-field-partenaire-lie {
   margin: 1em 0;
 }
 .view-eva {
