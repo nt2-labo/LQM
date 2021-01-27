@@ -199,13 +199,13 @@ body footer .region-footer-copy {
   border-radius: 0.2em;
   padding: 0 2em;
   box-sizing: border-box;
-  border: 1px solid #ececec;
   text-align: center;
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
+  border: 1px solid #ececec;
 }
 .accueil_chantier .marg h3{
 	margin-top: 1rem;
