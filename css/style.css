@@ -196,8 +196,8 @@ body footer .region-footer-copy {
 }
 /* line 140, ../sass/style.sass */
 .accueil_chantier .marg {
-  border-radius: 0.2em;
-  padding: 0 2em;
+  border-radius: 0.2rem;
+  padding: 1rem 2rem;
   box-sizing: border-box;
   text-align: center;
   display: flex;
@@ -205,7 +205,7 @@ body footer .region-footer-copy {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
-  border: 1px solid #ececec;
+  border: 10px solid #ececec;
 }
 .accueil_chantier .marg h3{
 	margin-top: 1rem;
