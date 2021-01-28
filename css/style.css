@@ -204,8 +204,7 @@ body footer .region-footer-copy {
   flex-flow: column wrap;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
-  border: 10px solid #ececec;
+  border: 1px solid #ececec;
 }
 .accueil_chantier .marg h3{
 	margin-top: 1rem;
