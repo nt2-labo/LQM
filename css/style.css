@@ -53,11 +53,21 @@ h1 {
 }
 
 /* line 41, ../sass/style.sass */
-h2 {
+.block-views-blockactualites-sur-chantier-block-1 h2,
+.block-views-blockpartenaires-sur-chantiers-block-1 h2,
+.block-views-blockbillets-sur-chantiers-block-1 h2,
+.block-views-blockmembres-sur-chantiers-block-1 h2
+{
+  font-size: 1em;
+  text-align: left;
+  font-weight: bold;
+  color: #666666;
+  font-family: 'Lato','Verdana','Helvetica', sans-serif;
+}
+h2.block-title {
   font-size: 1.8em;
   text-align: center;
 }
-
 /* line 45, ../sass/style.sass */
 h3 {
   font-size: 1.4em;
@@ -314,7 +324,9 @@ body footer .region-footer-copy {
   border-radius: 2px;
   background-color: #e7e7e7;
 }
-
+#views-exposed-form-chantiers-page-1 .quicktabs-tabs li a {
+  font-size: 12px;
+}
 /*=======Equipe========== */
 /* line 175, ../sass/style.sass */
 .page-node-type-membre .sidebar-droit .field--name-field-portrait {
@@ -463,12 +475,10 @@ nav.pager-nav {
   border: 1px solid #ececec;
   justify-content: flex-start;
 }
-.item-chantier a
-{
+.item-chantier a {
   text-decoration: none;
 }
-.item-chantier a:hover
-{
+.item-chantier a:hover {
   text-decoration: none;
 }
 .item-chantier h3 {
@@ -747,6 +757,7 @@ nav.pager-nav {
   ul.quicktabs-tabs li {
     display: block;
   }
+
   .container {
     padding-right: 0px;
     padding-left: 0px;
