@@ -461,12 +461,27 @@ nav.pager-nav {
 
 .item-chantier {
   border: 1px solid #ececec;
+  justify-content: flex-start;
 }
-.item-chantier .views-field-title a {
-  font-size: 1.6rem;
+.item-chantier a
+{
+  text-decoration: none;
 }
-.item-chantier .views-field-body .field-content {
+.item-chantier a:hover
+{
+  text-decoration: none;
+}
+.item-chantier h3 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  padding-bottom: 1rem;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.item-chantier .body {
   font-size: 1rem;
+  text-align: justify;
 }
 
 /* line 253, ../sass/style.sass */
