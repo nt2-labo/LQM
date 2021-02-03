@@ -242,14 +242,39 @@ body footer .region-footer-copy {
 .actualites-cover img {
   object-fit: cover;
   width: 100%;
-  height: 420px;
+  height: 420px !important;
 }
 .actualites-content {
   position: absolute;
   width: 50%;
+  height: 100%;
+  padding: 4rem;
   background-color: rgba(255, 255, 255, 0.7);
   top: 0;
   right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.actualites-content h3 a {
+  font-weight: 800;
+}
+.actualites-content .type {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-weight: 800;
+}
+.actualites-content .date {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+#block-views-block-actualite-accueil-droit-block-1 .flexslider {
+  position: relative;
+}
+.flex-control-paging li a {
+  background: #4190a277;
 }
 /* line 151, ../sass/style.sass */
 .sur-le-terrain .view-content {
@@ -428,6 +453,22 @@ nav.pager-nav {
   clear: left;
 }
 
+.view-chantiers .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.item-chantier {
+  border: 1px solid #ececec;
+}
+.item-chantier .views-field-title a {
+  font-size: 1.6rem;
+}
+.item-chantier .views-field-body .field-content {
+  font-size: 1rem;
+}
+
 /* line 253, ../sass/style.sass */
 .views-field-field-portrait img {
   border-radius: 50%;
@@ -494,6 +535,11 @@ nav.pager-nav {
   bottom: -80px;
 }
 
+#block-views-block-actualite-accueil-droit-block-1 .flexslider .flex-control-nav {
+  position: absolute;
+  bottom: 0;
+  z-index: 200;
+}
 /* line 294, ../sass/style.sass */
 .well {
   background-color: white;
